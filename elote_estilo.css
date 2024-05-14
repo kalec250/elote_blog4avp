@@ -1,0 +1,86 @@
+h1{ 
+    color:rgb(0, 81, 128);
+    text-align:center; 
+    font-family:verdand,Geneva,Tahoma,sans-serif;
+   }
+   h2
+   {
+    color:rgb(1, 0, 83);
+    text-align:left; 
+    font-family:verdand,Geneva,Tahoma,sans-serif;
+   }
+   h3
+   { 
+    color:#740883; 
+    font-family:verdand,Geneva,Tahoma,sans-serif;
+   }
+   h4
+   { 
+    color:rgb(0, 0, 0);
+    text-align:center; 
+    font-family:verdand,Geneva,Tahoma,sans-serif;
+   }
+  p
+  {
+    color:rgb(7, 7, 8);
+    text-align:left;
+    font-family:"Trebuchet MS", sans-serif;
+    font-size: 22px;
+    
+  }
+  ol
+  {
+    color:rgb(76, 15, 190);
+    text-align:left; 
+    font-family:"Open Sans",sans-serif;
+    font-size: 20px;
+  }
+  ul li
+  {
+    color:rgb(0, 11, 167);
+    text-align:left;
+    font-family:"Open Sans",sans-serif;
+    font-size: 18px;
+  }
+  header/*Representa un grupo de ayudas intreductorias o de navegacion*/
+  {
+    background: #03000069; /*Color del fondo */
+    width: 30%;/*Ancho del elemento */
+    position: fixed;/*Ubicacion del elemento*/
+    right: 0;
+    z-index: 100;/*Orden de un elemento y sus descendientes*/
+  }
+  nav { /*Seccion de la pagina*/
+    float: left;/*Ubica el elemento a la izquierda*/
+  }  
+  nav ul {
+    list-style: none;/*Configura las propiedades del estilo de lista a la vez*/
+    overflow: hidden; /*Oculta el contenido del elemento cuando pasa el limite del bloque*/
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;/*Define una lista de fuentes*/
+    font-size: 20px;/*Tamaño de fuente*/
+  }
+  nav ul li a {
+    display: block; /*Establece los tipos de visualizacion interna y externa de un elemento.*/
+    padding: 15px;/*El espacio que rodea al elemento*/
+    color: #ffffff;/*Color de la fuente del menu*/
+    text-decoration: none;/*la apariencia de las lineas decorativas en el texto.*/
+  }
+  nav ul li:hover {/*Interaccion del mouse con el elemento*/
+    background: rgba(223, 191, 49, 0.959);/*Color del boton del menu*/
+  }
+  .img-blk {
+    text-align: center;
+  }
+  .img-blk:first-child {
+    float: left;
+  }
+  .img-blk:last-child {
+    float: right;
+  }
+  ul
+  {
+    text-align: center;
+  }
